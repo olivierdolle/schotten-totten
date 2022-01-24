@@ -14,41 +14,41 @@ def test_figures_are_comparable():
     (
         (
             [
-                Card(color=Color.Red, value=Value.ONE),
-                Card(color=Color.Red, value=Value.TWO),
-                Card(color=Color.Red, value=Value.THREE),
+                Card(color=Color.RED, value=Value.ONE),
+                Card(color=Color.RED, value=Value.TWO),
+                Card(color=Color.RED, value=Value.THREE),
             ],
             Triplet(total=6, figure=Figure.FLUSH),
         ),
         (
             [
-                Card(color=Color.Red, value=Value.ONE),
-                Card(color=Color.Yellow, value=Value.TWO),
-                Card(color=Color.Blue, value=Value.THREE),
+                Card(color=Color.RED, value=Value.ONE),
+                Card(color=Color.YELLOW, value=Value.TWO),
+                Card(color=Color.BLUE, value=Value.THREE),
             ],
             Triplet(total=6, figure=Figure.SUITE),
         ),
         (
             [
-                Card(color=Color.Red, value=Value.ONE),
-                Card(color=Color.Yellow, value=Value.TWO),
-                Card(color=Color.Blue, value=Value.FOUR),
+                Card(color=Color.RED, value=Value.ONE),
+                Card(color=Color.YELLOW, value=Value.TWO),
+                Card(color=Color.BLUE, value=Value.FOUR),
             ],
             Triplet(total=7, figure=Figure.NULL),
         ),
         (
             [
-                Card(color=Color.Red, value=Value.ONE),
-                Card(color=Color.Yellow, value=Value.ONE),
-                Card(color=Color.Blue, value=Value.ONE),
+                Card(color=Color.RED, value=Value.ONE),
+                Card(color=Color.YELLOW, value=Value.ONE),
+                Card(color=Color.BLUE, value=Value.ONE),
             ],
             Triplet(total=3, figure=Figure.TRIPLE),
         ),
         (
             [
-                Card(color=Color.Red, value=Value.ONE),
-                Card(color=Color.Red, value=Value.TWO),
-                Card(color=Color.Red, value=Value.FOUR),
+                Card(color=Color.RED, value=Value.ONE),
+                Card(color=Color.RED, value=Value.TWO),
+                Card(color=Color.RED, value=Value.FOUR),
             ],
             Triplet(total=7, figure=Figure.COLOR),
         ),
