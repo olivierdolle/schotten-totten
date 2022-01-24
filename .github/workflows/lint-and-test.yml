@@ -29,4 +29,4 @@ jobs:
         pipenv run pylint $(git ls-files '*.py')
     - name: Test with pytest
       run: |
-        pipenv run pytest --cov
+        pipenv run pytest
