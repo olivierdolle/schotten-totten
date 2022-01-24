@@ -1,1 +1,1 @@
-![Test](https://github.com/olivierdolle/schotten-tottent/actions/workflows/ci/badge.svg)
+![Test](https://github.com/olivierdolle/schotten-totten/actions/workflows/ci.yml/badge.svg)
