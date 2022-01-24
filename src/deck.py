@@ -14,7 +14,7 @@ class Deck:
         cards = [
             Card(color, value)
             for color in Color
-            if color != Color.Null
+            if color != Color.NULL
             for value in Value
             if value != Value.ZERO
         ]

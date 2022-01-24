@@ -18,7 +18,7 @@ class Value(IntEnum):
 
 @dataclass
 class Card:
-    color: Color = Color.Null
+    color: Color = Color.NULL
     value: Value = Value.ZERO
 
     def __eq__(self, other) -> bool:
