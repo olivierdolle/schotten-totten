@@ -1,0 +1,10 @@
+{
+    "python.testing.pytestArgs": [
+        "src"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "files.autoSave": "onFocusChange",
+    "python.linting.mypyEnabled": true,
+    "python.linting.enabled": true
+}
